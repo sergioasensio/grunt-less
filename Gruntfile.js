@@ -31,6 +31,6 @@
 grunt.loadNpmTasks("grunt-contrib-less");
 grunt.loadNpmTasks("grunt-contrib-watch");
 
-// Running in shell >grunt , starts watch (development) task by default
+// Running in shell $ grunt for watching (development) task by default
 grunt.registerTask('default', 'watch');
 };

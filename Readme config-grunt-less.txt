@@ -1,6 +1,6 @@
 Create a package.json file
 ******************************************************************
-Run Node.js (LTS version recommended) shell and move to your project folder, execute: $ npm init
+Run Node.js shell and move to your project folder, execute: $ npm init
 A package.json must be created
 
 Install Less if you don't have installed previously
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
 grunt.loadNpmTasks("grunt-contrib-less");
 grunt.loadNpmTasks("grunt-contrib-watch");
 
-// Running in shell >grunt , starts watch (development) task by default
+// Running in shell $ grunt for watching (development) task by default
 grunt.registerTask('default', 'watch');
 };
 
