@@ -3,9 +3,6 @@ Create a package.json file
 Run Node.js shell and move to your project folder, execute: $ npm init
 A package.json must be created
 
-Install Less if you don't have installed previously
-******************************************************************
-$ npm install -g less
 
 Install grunt-cli and required packages and add them to package.json
 ******************************************************************
