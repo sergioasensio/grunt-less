@@ -6,12 +6,18 @@ A package.json must be created
 
 Install grunt-cli and required packages and add them to package.json
 ******************************************************************
-$ npm install -g grunt-cli
-$ npm install grunt --save-dev
-$ npm install grunt-contrib-less --save-dev
-$ npm install grunt-contrib-watch --save-dev
+** If you already have your package.json with dependencies, execute:
 
-** If you already have your package.json with dependencies, execute: $ npm install
+$ npm install
+
+
+** Otherwise, execute:
+
+$ npm install grunt --save-dev
+
+$ npm install grunt-contrib-less --save-dev
+
+$ npm install grunt-contrib-watch --save-dev
 
 
 Gruntfile.js
