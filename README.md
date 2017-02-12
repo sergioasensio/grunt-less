@@ -1,5 +1,3 @@
-# grunt-less
-
 Compile Less to CSS with Grunt
 ==============================
 
