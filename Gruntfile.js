@@ -16,13 +16,16 @@
     },
     watch: {
       options: {
-        spawn: false,
+        spawn: true,
         livereload: true
       },
       styles: {
         files: ["less/**/*.less"],
         tasks: ["less:dev"],
-        options: {spawn: false}
+        options: {
+          atBegin: true,
+          spawn: true
+        }
       }
     }
   });
